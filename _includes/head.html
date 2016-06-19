@@ -1,0 +1,33 @@
+<head>
+    {% include meta.html %}
+    <title>
+        {% if page.title %}
+        {{ page.title }} &ndash;
+        {% endif %}
+        {{ site.name }}
+    </title>
+
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml"/>
+
+    <link rel="apple-touch-icon" href="{{ site.github.url }}/apple-touch-icon.png"/>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' >
+
+    <link rel="stylesheet" type="text/css"
+          href="{{ site.url }}/css/pygments.css" />
+
+    <link rel="stylesheet" type="text/css"
+          media="screen, projection"
+          href="{{ site.url }}/css/base.css"/>
+
+    <link rel="stylesheet" type="text/css"
+          media="only screen and (max-device-width: 480px)"
+          href="{{ site.github.url }}/css/mobile.css" />
+
+    <link rel="stylesheet" type="text/css"
+          media="only screen and (device-width: 768px)"
+          href="{{ site.github.url }}/css/mobile.css" />
+
+    <script type="text/javascript" src="{{ site.github.url }}/js/application.js"></script>
+</head>
